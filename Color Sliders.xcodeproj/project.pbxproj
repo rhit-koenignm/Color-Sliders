@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F213FE082671C60E00370D2D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F213FE052671C60E00370D2D /* Icon.png */; };
+		F213FE092671C60E00370D2D /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F213FE062671C60E00370D2D /* Icon@2x.png */; };
+		F213FE0A2671C60E00370D2D /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = F213FE072671C60E00370D2D /* Icon-72.png */; };
 		F2AB79B9266F0BE90079F04D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB79B8266F0BE90079F04D /* AppDelegate.swift */; };
 		F2AB79BB266F0BE90079F04D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB79BA266F0BE90079F04D /* SceneDelegate.swift */; };
 		F2AB79BD266F0BE90079F04D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB79BC266F0BE90079F04D /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F213FE052671C60E00370D2D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../../../../Downloads/colorSliderIcons/Icon.png; sourceTree = "<group>"; };
+		F213FE062671C60E00370D2D /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../../../../../Downloads/colorSliderIcons/Icon@2x.png"; sourceTree = "<group>"; };
+		F213FE072671C60E00370D2D /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../../../../../Downloads/colorSliderIcons/Icon-72.png"; sourceTree = "<group>"; };
 		F2AB79B5266F0BE90079F04D /* Color Sliders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Sliders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2AB79B8266F0BE90079F04D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2AB79BA266F0BE90079F04D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +62,9 @@
 		F2AB79B7266F0BE90079F04D /* Color Sliders */ = {
 			isa = PBXGroup;
 			children = (
+				F213FE072671C60E00370D2D /* Icon-72.png */,
+				F213FE052671C60E00370D2D /* Icon.png */,
+				F213FE062671C60E00370D2D /* Icon@2x.png */,
 				F2AB79B8266F0BE90079F04D /* AppDelegate.swift */,
 				F2AB79BA266F0BE90079F04D /* SceneDelegate.swift */,
 				F2AB79BC266F0BE90079F04D /* ViewController.swift */,
@@ -124,9 +133,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F213FE082671C60E00370D2D /* Icon.png in Resources */,
 				F2AB79C5266F0BEB0079F04D /* LaunchScreen.storyboard in Resources */,
 				F2AB79C2266F0BEB0079F04D /* Assets.xcassets in Resources */,
 				F2AB79C0266F0BE90079F04D /* Main.storyboard in Resources */,
+				F213FE092671C60E00370D2D /* Icon@2x.png in Resources */,
+				F213FE0A2671C60E00370D2D /* Icon-72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
